@@ -11,7 +11,7 @@ pipeline{
                 echo "Building solution"  
                 script {
                     def mavenbuild = tool name: 'maven3'
-                    bat "${mavenbuild}/maven build test-project"
+                    bat "${mavenbuild}/bin/mvn package"
                 }                 
              }
         }
