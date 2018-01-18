@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<udm.DeploymentPackage version="1.0" application="PetClinic">
+<udm.DeploymentPackage version="1.0" application="test-project">
   <deployables>
-    <deployables>
 	  <tomcat.War name="TestProjectDeploymentPackage" file="test-project-1.0.war">
 		  <tags />
 		  <scanPlaceholders>false</scanPlaceholders>
@@ -9,6 +8,7 @@
 		  <placeholders />
 		  <checksum/>
 	  </tomcat.War>
-	</deployables>
   </deployables>
+  
+  
 </udm.DeploymentPackage>
