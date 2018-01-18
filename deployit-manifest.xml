@@ -2,10 +2,7 @@
 <udm.DeploymentPackage version="1.0" application="test-project">
   <deployables>
 	  <tomcat.War name="TestProjectDeploymentPackage" file="test-project-1.0.war">
-		  <tags />
-		  <scanPlaceholders>false</scanPlaceholders>
-		  <preScannedPlaceholders>true</preScannedPlaceholders>
-		  <placeholders />
+		  
 	  </tomcat.War>
   </deployables>
   
