@@ -15,7 +15,7 @@ pipeline{
                 }                 
              }
         }
-		stage('Package'){
+		stage('Package & Publish'){
 			xldCreatePackage  artifactsPath: 'target\test-project-1.0.war', darPath: "test-project-1.0.dar", manifestPath: "deployit-manifest.xml"
 		}
     }
