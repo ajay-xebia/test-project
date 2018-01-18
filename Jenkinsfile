@@ -18,6 +18,7 @@ pipeline{
 		stage('Package & Publish'){
 			steps{
 				xldCreatePackage  artifactsPath: 'target', darPath: "test-project-1.0.dar", manifestPath: "deployit-manifest.xml"
+				xldPublishPackage darPath: "test-project-1.0.dar", serverCredentials: "admin-credentials"
 			}
 		}
     }
