@@ -6,7 +6,6 @@
 		  <scanPlaceholders>false</scanPlaceholders>
 		  <preScannedPlaceholders>true</preScannedPlaceholders>
 		  <placeholders />
-		  <checksum/>
 	  </tomcat.War>
   </deployables>
   
