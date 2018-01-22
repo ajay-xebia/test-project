@@ -1,5 +1,8 @@
 pipeline{
     agent any
+	environment {
+		mavenBuildTool = 'maven3'
+	}
     stages {
         stage('Checkout') {
             steps {
@@ -10,7 +13,7 @@ pipeline{
              steps {
                 echo "Building solution"  
                 script {
-					def mavenbuild = tool name: 'maven3'
+					def mavenbuild = tool name: mavenBuildTool
                     bat "${mavenbuild}/bin/mvn package"
                 }                 
              }
