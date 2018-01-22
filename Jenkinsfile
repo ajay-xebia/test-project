@@ -11,6 +11,7 @@ pipeline{
         }
 		stage('Build'){
              steps {
+				set
                 echo "Building solution"  
                 script {
 					def mavenbuild = tool name: mavenBuildTool
