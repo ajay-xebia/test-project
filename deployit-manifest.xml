@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <udm.DeploymentPackage version="1.0" application="test-project">
   <deployables>
-	  <tomcat.War name="TestProjectDeploymentPackage" fileUri="maven:com.pipeline:test-project:1.0.war">
+	  <tomcat.War name="TestProjectDeploymentPackage" fileUri="maven:com.pipeline:test-project:1.0">
 		  
 	  </tomcat.War>
   </deployables>
